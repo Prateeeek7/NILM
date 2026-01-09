@@ -59,11 +59,7 @@ git clone <repository-url>
 cd NILM
 ```
 
-### 2. Hardware Setup
-
-See [Hardware Setup Guide](HARDWARE_SETUP.md) for detailed wiring instructions.
-
-### 3. Configure ESP32 Firmware
+### 2. Configure ESP32 Firmware
 
 Edit `hardware/esp32/src/wifi_config.h`:
 ```cpp
@@ -72,7 +68,7 @@ const char* WIFI_PASSWORD = "YOUR_WIFI_PASSWORD";
 const char* MQTT_BROKER = "YOUR_MQTT_BROKER_IP";  // e.g., "192.168.1.100"
 ```
 
-### 4. Start Services with Docker
+### 3. Start Services with Docker
 
 ```bash
 docker-compose up -d
@@ -84,24 +80,17 @@ This starts:
 - Backend API (port 8000)
 - Frontend dashboard (port 3000)
 
-### 5. Access the Dashboard
+### 4. Access the Dashboard
 
 Open your browser to: `http://localhost:3000`
 
-### 6. Upload ESP32 Firmware
+### 5. Upload ESP32 Firmware
 
 ```bash
 cd hardware/esp32
 pio run -t upload
 pio device monitor
 ```
-
-## 📚 Documentation
-
-- [Hardware Setup Guide](HARDWARE_SETUP.md) - Detailed wiring instructions
-- [API Documentation](API_DOCS.md) - REST API endpoints
-- [Deployment Guide](DEPLOYMENT.md) - Production deployment instructions
-- [ML Training Guide](ML_TRAINING.md) - Model training workflow
 
 ## 🧪 ML Model Training
 
@@ -247,31 +236,13 @@ For production deployment:
 - Implement API authentication
 - Use environment variables for secrets
 
-## 🐛 Troubleshooting
-
-### ESP32 not connecting to WiFi
-- Check SSID and password in `wifi_config.h`
-- Verify WiFi signal strength
-- Check serial monitor for error messages
-
-### No data in dashboard
-- Verify MQTT broker is running
-- Check ESP32 is publishing to correct topic
-- Verify InfluxDB connection
-- Check backend logs: `docker-compose logs backend`
-
-### ML predictions not working
-- Ensure model file exists at configured path
-- Check model file format (should be joblib pickle)
-- Verify feature extraction is working
-
-## 📝 License
-
-[Add your license here]
 
 ## 👥 Contributors
 
-[Add contributors here]
+Ankit Ray @00Ankit00
+Tahkur Chand Choudhary @ThakuJandu-8
+Naman Jain
+Nirbhay Mehta
 
 ## 🙏 Acknowledgments
 
