@@ -244,8 +244,8 @@ For production deployment:
 
 - [Ankit Ray](https://github.com/00Ankit00)
 - [Tahkur Chand Choudhary](https://github.com/ThakurJandu-8)
-- Naman Jain
-- Nirbhay Mehta
+- [Naman Jain](https://github.com/Naman080706)
+- [Nirbhay Mehta](github.com/mehtanirbhayp)
 
 ## 🙏 Acknowledgments
 
