@@ -2,6 +2,9 @@
 
 An industry-level AI-powered system for identifying and monitoring DC electrical loads using a single sensor point. This system uses machine learning to recognize different load types (fan, motor, bulb, etc.) from aggregated current and power measurements.
 
+> **🏆 Hackathon Project**  
+> This project was built under the **ANRF Sponsored Green Energy Hackathon - IoT for Smart Energy**, conducted by the **School of Electrical Engineering (SELECT), Vellore Institute of Technology, Vellore** on **08.01.2026 - 09.01.2026**.
+
 ## 🎯 Project Overview
 
 This project implements a complete NILM (Non-Intrusive Load Monitoring) system for DC loads, featuring:
