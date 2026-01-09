@@ -239,10 +239,10 @@ For production deployment:
 
 ## 👥 Contributors
 
-Ankit Ray @00Ankit00
-Tahkur Chand Choudhary @ThakuJandu-8
-Naman Jain
-Nirbhay Mehta
+- [Ankit Ray](https://github.com/00Ankit00)
+- [Tahkur Chand Choudhary](https://github.com/ThakurJandu-8)
+- Naman Jain
+- Nirbhay Mehta
 
 ## 🙏 Acknowledgments
 
